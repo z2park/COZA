@@ -1,0 +1,36 @@
+@charset "utf-8";
+* {
+  box-sizing: border-box;
+}
+
+html,body{
+  width:100%;
+  height:100%;
+}
+.coza{
+  height:100%;
+}
+.coza-menu{
+  min-width:10%;
+  height:100%;
+  background-color:black;
+  float:left;
+  color:#fff;
+  padding:20px 10px;
+  h1{
+    font-size:40px;
+  }
+}
+.coza-menu-ul{
+  font-size:22px;
+  padding-top:50px;
+  li{
+    padding:20px 0;
+  }
+}
+.coza-contents{
+  width:90%;
+  height:100%;
+  background-color:#eee;
+  float:left;
+}
